@@ -17,75 +17,63 @@
     <section id="payment-details">
         <img src="images/shape14.png" alt="triangle" class="triangle" />
         <h2><span class="payment">Payment</span> <span class="details">Details</span></h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Product Name</th>
-            <th>Quantity</th>
-            <th>Price per Unit</th>
-            <th>Subtotal</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Product 1 -->
-          <tr>
-            <td>Sample Product 1</td>
-            <td>
-              <div class="quantity-control">
-                <button class="decrease-quantity" data-product="1">-</button>
-                <input
-                  type="number"
-                  class="quantity"
-                  id="quantity-1"
-                  value="1"
-                  min="1"
-                  readonly
-                />
-                <button class="increase-quantity" data-product="1">+</button>
-              </div>
-            </td>
-            <td id="price-per-unit-1">₹500</td>
-            <td id="subtotal-1">₹0</td>
-          </tr>
-
-          <!-- Product 2 -->
-          <tr>
-            <td>Sample Product 2</td>
-            <td>
-              <div class="quantity-control">
-                <button class="decrease-quantity" data-product="2">-</button>
-                <input
-                  type="number"
-                  class="quantity"
-                  id="quantity-2"
-                  value="1"
-                  min="1"
-                  readonly
-                />
-                <button class="increase-quantity" data-product="2">+</button>
-              </div>
-            </td>
-            <td id="price-per-unit-2">₹300</td>
-            <td id="subtotal-2">₹0</td>
-          </tr>
-        </tbody>
-      </table>
-
+        <table class="product-table">
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Product 1 -->
+              <tr>
+                <td>Sample Product 1</td>
+                <td>
+                  <div class="quantity-control">
+                    <button class="decrease-quantity" data-product="1">-</button>
+                    <input type="number" class="quantity" id="quantity-1" value="1" min="1" readonly />
+                    <button class="increase-quantity" data-product="1">+</button>
+                  </div>
+                </td>
+                <td id="price-per-unit-1">₹500</td>
+                <td id="subtotal-1">₹0</td>
+              </tr>
+        
+              <!-- Product 2 -->
+              <tr>
+                <td>Sample Product 2</td>
+                <td>
+                  <div class="quantity-control">
+                    <button class="decrease-quantity" data-product="2">-</button>
+                    <input type="number" class="quantity" id="quantity-2" value="1" min="1" readonly />
+                    <button class="increase-quantity" data-product="2">+</button>
+                  </div>
+                </td>
+                <td id="price-per-unit-2">₹300</td>
+                <td id="subtotal-2">₹0</td>
+              </tr>
+            </tbody>
+          </table>
+        
+          <!-- Total Table -->
+          <table class="total-table">
+            <tr>
+              <th>Total Subtotal</th>
+              <td id="total-subtotal">₹0</td>
+            </tr>
+            <tr>
+              <th>Taxes (18% GST)</th>
+              <td id="tax">₹0</td>
+            </tr>
+            <tr>
+              <th>Total</th>
+              <td id="total">₹0</td>
+            </tr>
+          </table>
       <!-- Total Section -->
-      <table>
-        <tr>
-          <th>Total Subtotal</th>
-          <td id="total-subtotal">₹0</td>
-        </tr>
-        <tr>
-          <th>Taxes (18% GST)</th>
-          <td id="tax">₹0</td>
-        </tr>
-        <tr>
-          <th>Total</th>
-          <td id="total">₹0</td>
-        </tr>
-      </table>
+      
     </section>
 
     <section id="payment-action">
