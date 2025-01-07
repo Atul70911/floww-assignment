@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Summary</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Floww APIs Logo" />
+      <h1><span>Payment</span> Summary</h1>
+    </header>
+    <img src="images/dot.png" alt="Dot 1" class="dot" id="dot1" />
+    <img src="images/dot3.png" alt="Dot 2" class="dot" id="dot2" />
+    <img src="images/shape12.png" alt="upshape" class="up-shape" />
+    <section id="payment-details">
+        <img src="images/shape14.png" alt="triangle" class="triangle" />
+        <h2><span class="payment">Payment</span> <span class="details">Details</span></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price per Unit</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Product 1 -->
+          <tr>
+            <td>Sample Product 1</td>
+            <td>
+              <div class="quantity-control">
+                <button class="decrease-quantity" data-product="1">-</button>
+                <input
+                  type="number"
+                  class="quantity"
+                  id="quantity-1"
+                  value="1"
+                  min="1"
+                  readonly
+                />
+                <button class="increase-quantity" data-product="1">+</button>
+              </div>
+            </td>
+            <td id="price-per-unit-1">₹500</td>
+            <td id="subtotal-1">₹0</td>
+          </tr>
+
+          <!-- Product 2 -->
+          <tr>
+            <td>Sample Product 2</td>
+            <td>
+              <div class="quantity-control">
+                <button class="decrease-quantity" data-product="2">-</button>
+                <input
+                  type="number"
+                  class="quantity"
+                  id="quantity-2"
+                  value="1"
+                  min="1"
+                  readonly
+                />
+                <button class="increase-quantity" data-product="2">+</button>
+              </div>
+            </td>
+            <td id="price-per-unit-2">₹300</td>
+            <td id="subtotal-2">₹0</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Total Section -->
+      <table>
+        <tr>
+          <th>Total Subtotal</th>
+          <td id="total-subtotal">₹0</td>
+        </tr>
+        <tr>
+          <th>Taxes (18% GST)</th>
+          <td id="tax">₹0</td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <td id="total">₹0</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="payment-action">
+      <button id="pay-now">Pay Now</button>
+      <p id="payment-message"></p>
+      <div id="loading-spinner" style="display: none"></div>
+    </section>
+    <img src="images/shape13.png" alt="Centered Image" class="center-image" />
+    <footer id="footer">
+        <!-- Contact Us Section -->
+        <section id="contact-us">
+          <h3 class="footer-heading">Contact Us</h3>
+          <p class="footer-text"><strong>Floww Contact (India, Pune)</strong></p>
+          <p class="footer-text"><img src="images/phone-call.svg" alt="Floww Phone" class="contact-icon" /><strong>Call Us:</strong> +91 8879138857</p>
+          <p class="footer-text">
+            <img src="images/location-pin.svg" alt="Floww Address" class="contact-icon" /><strong>Address:</strong> 1202, Gera Imperium Rise, Hinjewadi Phase 2, Pune - 411057
+          </p>
+          <p class="footer-text">
+            <img src="images/email.svg" alt="Floww Mail" class="contact-icon" /><strong>Mail Us:</strong> <a href="mailto:info@gofloww.co" class="footer-link">info@gofloww.co</a>
+          </p>
+        </section>
+      
+        <!-- Social Links Section -->
+        <section id="social-links">
+          <h3 class="footer-heading">Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a onclick="redirectToHref('https://www.facebook.com/gofloww/')" class="social-link">
+                <img src="images/facebook-svg.svg" alt="Floww Facebook" class="social-icon" />
+              </a>
+            </li>
+            <li>
+              <a onclick="redirectToHref('https://x.com/FlowwAPIs')" class="social-link">
+                <img src="images/Twitter.svg" alt="Floww Twitter" class="social-icon" />
+              </a>
+            </li>
+            <li>
+              <a onclick="redirectToHref('https://www.linkedin.com/company/gofloww/')" class="social-link">
+                <img src="images/LinkedIn.svg" alt="Floww LinkedIn" class="social-icon" />
+              </a>
+            </li>
+            <li>
+              <a onclick="redirectToHref('https://www.instagram.com/gofloww.co/')" class="social-link">
+                <img src="images/Instagram.svg" alt="Floww Instagram" class="social-icon" />
+              </a>
+            </li>
+            <li>
+              <a onclick="redirectToHref('https://www.youtube.com/@gofloww')" class="social-link">
+                <img src="images/youtube.svg" alt="Floww Youtube" class="social-icon" />
+              </a>
+            </li>
+          </ul>
+        </section>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
