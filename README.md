@@ -42,7 +42,7 @@ The project is designed to work on modern browsers that support HTML5 and CSS3 f
 
 The Deployment Link:
 
-[linktodeplyment](https://atul70911.github.io/floww-assignment/)
+[linktodeployment](https://atul70911.github.io/floww-assignment/)
 
 
 Feel free to explore and modify the project as needed!
