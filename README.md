@@ -26,6 +26,8 @@ cd [floww-assignment](floww-assignment)
 Open the Project in a Browser:
 Simply open the index.html file in your preferred web browser to view the payment summary page.
 
+For the Mobile view:
+As the number of columns are more so it goes a bit out of frame but otherwise its good.
 Modify Locally:
 You can edit the HTML and CSS files using any code editor (e.g., VS Code) to customize the project.
 
