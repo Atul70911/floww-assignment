@@ -39,5 +39,6 @@ This project assumes no backend connection; it focuses solely on front-end devel
 
 Browser Compatibility:
 The project is designed to work on modern browsers that support HTML5 and CSS3 features.
-
+The Deployment Link:
+[linktodeplyment](https://atul70911.github.io/floww-assignment/)
 Feel free to explore and modify the project as needed!
