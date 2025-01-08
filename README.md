@@ -21,7 +21,7 @@ git clone [<repo_link>](https://github.com/Atul70911/floww-assignment.git)
 
 Navigate to the Project Directory:
 
-cd [<floww-assignment>](floww-assignment)
+cd [floww-assignment](floww-assignment)
 
 Open the Project in a Browser:
 Simply open the index.html file in your preferred web browser to view the payment summary page.
@@ -39,6 +39,10 @@ This project assumes no backend connection; it focuses solely on front-end devel
 
 Browser Compatibility:
 The project is designed to work on modern browsers that support HTML5 and CSS3 features.
+
 The Deployment Link:
+
 [linktodeplyment](https://atul70911.github.io/floww-assignment/)
+
+
 Feel free to explore and modify the project as needed!
