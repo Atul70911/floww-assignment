@@ -17,11 +17,11 @@ Instructions to Run the Project Locally
 
 Clone the Repository:
 
-git clone [<repository_url>](https://github.com/Atul70911/floww-assignment.git)
+git clone [<repo_link>](https://github.com/Atul70911/floww-assignment.git)
 
 Navigate to the Project Directory:
 
-cd <floww-assingment>
+cd [<floww-assignment>](floww-assignment)
 
 Open the Project in a Browser:
 Simply open the index.html file in your preferred web browser to view the payment summary page.
