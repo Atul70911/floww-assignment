@@ -318,7 +318,7 @@ header h1 span {
     .product-row .price,
     .product-row .subtotal {
         width: 100%;
-        padding: 5px 0;
+        padding: 0px 0;
     }
 
     .quantity-control {
